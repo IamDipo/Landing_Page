@@ -96,6 +96,8 @@ button {
   height: 100%;
   border: none;
   outline: none;
+  font-size: 16px;
+  margin-left: 2px;
   padding: 0 20px;
   transition: all 0.2s ease;
   border-bottom: 1.5px solid #a03816;
@@ -105,6 +107,15 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.box {
+  color: rgb(56, 55, 55);
+  position: absolute;
+  top: 40%;
+  margin-top: 5px;
+  transform: translateY(-50%);
+  left: 3px;
+  font-size: 14px;
 }
 .form-container a {
   color: #a03816;
